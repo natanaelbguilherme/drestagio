@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    max-width: 1120px;
+    height: 100px;
+    background-color: #FF4500;
+    color: white;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.logo {
+    margin-left:50px 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-right:50px ;
+}
+
+.menu li{
+    margin-left: 20px;
+}
